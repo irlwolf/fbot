@@ -1,3 +1,6 @@
-from bot import Bot
+from pyrogram import Client
 
-Bot().run()
+app = Client("my_bot")
+
+if __name__ == "__main__":
+    app.run()
